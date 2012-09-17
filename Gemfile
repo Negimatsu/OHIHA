@@ -7,6 +7,22 @@ gem 'rails', '3.2.8'
 
 gem 'sqlite3'
 
+# User authentication
+gem 'authlogic', '~> 3.1.3'
+
+# File attachment library
+# gem 'paperclip', '>= 3.2.0'
+
+# Gravtastic for user's avatar
+# gem 'gravtastic', '>= 3.2.6'
+
+
+# Unit testing
+group :development, :test do
+  gem 'rspec-rails', '~> 2.11.0'
+  gem 'shoulda-matchers', '~> 1.3.0'
+end
+
 
 # Gems used only for assets and not required
 # in production environments by default.
